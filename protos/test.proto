@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "non-added/test";
+
+service Test {
+  rpc Method (Empty) returns (Empty) {}
+}
+
+message Empty {
+}
